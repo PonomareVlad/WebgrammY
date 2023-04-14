@@ -1,0 +1,23 @@
+{
+  "name": "webgrammy",
+  "version": "0.0.1",
+  "dependencies": {
+    "grammy": "*"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.mjs"
+    },
+    "./types": {
+      "types": "./types.d.ts"
+    },
+    "./web": {
+      "types": "./index.d.ts",
+      "default": "./index.mjs"
+    }
+  },
+  "license": "MIT",
+  "funding": "https://PonomareVlad.ru/donate",
+  "author": "Vladislav Ponomarev <PonomareVlad@users.noreply.github.com> (https://PonomareVlad.ru)"
+}
