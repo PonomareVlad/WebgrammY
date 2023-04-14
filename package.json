@@ -4,28 +4,28 @@
   "dependencies": {
     "grammy": "*"
   },
-  "main": "./index.mjs",
-  "types": "./index.d.ts",
+  "main": "./node_modules/grammy/out/web.mjs",
+  "types": "./node_modules/grammy/out/mod.d.ts",
   "exports": {
     ".": {
-      "types": "./index.d.ts",
-      "default": "./index.mjs"
+      "types": "./node_modules/grammy/out/mod.d.ts",
+      "default": "./node_modules/grammy/out/web.mjs"
     },
     "./types": {
-      "types": "./types.d.ts"
+      "types": "./node_modules/grammy/out/types.d.ts"
     },
     "./web": {
-      "types": "./index.d.ts",
-      "default": "./index.mjs"
+      "types": "./node_modules/grammy/out/web.d.ts",
+      "default": "./node_modules/grammy/out/web.mjs"
     }
   },
   "typesVersions": {
     "*": {
       "web": [
-        "index"
+        "node_modules/grammy/out/web"
       ],
       "types": [
-        "types"
+        "node_modules/grammy/out/types"
       ]
     }
   },
