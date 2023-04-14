@@ -4,6 +4,8 @@
   "dependencies": {
     "grammy": "*"
   },
+  "main": "./index.mjs",
+  "types": "./index.d.ts",
   "exports": {
     ".": {
       "types": "./index.d.ts",
@@ -15,6 +17,16 @@
     "./web": {
       "types": "./index.d.ts",
       "default": "./index.mjs"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "web": [
+        "index"
+      ],
+      "types": [
+        "types"
+      ]
     }
   },
   "license": "MIT",
