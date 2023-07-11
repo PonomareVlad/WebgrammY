@@ -1,6 +1,6 @@
 # WebgrammY
 
-> Override [grammY](https://grammy.dev) for web-only export.
+> ⚠️ Deprecated and [no longer needed](https://github.com/grammyjs/grammY/pull/441)
 
 This package re-exports the default `grammy` export from the `grammy/web` path.
 
